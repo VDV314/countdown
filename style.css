@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+#demnguoc{
+    position: absolute;
+    bottom: 420px;
+    left: 680px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #f53838;
+    font-style: italic;
+    width: 700px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.item{
+    margin-right: 20px;
+    height: 120px;
+    width: 120px;
+    border: 2px solid rgb(32, 163, 206);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.item span {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 12px;
+}
+
